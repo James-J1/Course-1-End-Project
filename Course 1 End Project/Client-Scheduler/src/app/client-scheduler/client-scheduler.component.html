@@ -1,0 +1,20 @@
+<h3>Please schedule your meeting here!</h3>
+<div class="container">
+    <div id="form-container">
+        <form #formRef="ngForm" (ngSubmit)="submit(formRef)">
+            <label for="fname" >First Name</label><br />
+            <input type="text" id="input-fields" name="fname" placeholder="Enter First Name" ngModel /><br />
+            <label for="lname" >Last Name</label><br />
+            <input type="text" id="input-fields" name="lname" placeholder="Enter Last Name" ngModel /><br />
+            <label for="email" >Email</label><br />
+            <input type="text" id="input-fields" name="email" placeholder="Enter Email" ngModels /><br />
+            <label for="date" >Date</label><br />
+            <input type="date" id="input-fields" name="date" ngModel /><br />
+            <label for="time" >Time</label><br />
+            <input type="time" id="input-fields" name="time" ngModel /><br />
+            <br />
+            <input type="submit" value="Schedule Meeting" />
+        </form>
+        <div>{{message}}</div>
+    </div>
+</div>

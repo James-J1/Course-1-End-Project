@@ -1,0 +1,42 @@
+h2 {
+    margin-left: 40%;
+}
+
+h3 {
+    margin-left: 45%;
+}
+
+form {
+    position: relative;
+    margin-left: 40%;
+
+}
+
+.form-input {
+    padding-bottom: 10px;
+    width: 300px;
+}
+
+.form-label {
+    position: relative;
+    font-size: larger;
+}
+
+#submit {
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    font-size: large;
+}
+
+table {
+    font-size: larger;
+}
+
+th {
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+}
